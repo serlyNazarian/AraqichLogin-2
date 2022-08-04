@@ -1,0 +1,85 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-logo {
+  height: 50px;
+  width: 200px;
+  margin-top: 150px;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+  width: 40%;
+  height: 200px;
+  border: 1px solid grey;
+}
+
+.main-form label {
+  padding-top: 30px;
+}
+
+.login-btn {
+    margin-top: 10px;
+    width: 600px;
+    text-align: right;
+}
+
+.login-btn button {
+    width: 100px;
+    height: 30px;
+    color: grey;
+    cursor: pointer;
+}
+
+.login-password {
+    cursor: pointer;
+}
+
+.login-password a {
+    text-decoration: none;
+    color: grey;
+    width: 150px;
+    position: absolute;
+    left: 560px;
+}
+
+.account {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.account a {
+    padding: 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+.account button {
+    color: grey;
+    width: 500px;
+    height: 40px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.last-page {
+    background-color:#071424 ;
+    height: 12px;
+    color: white;
+    padding: 50px;
+}
